@@ -1,0 +1,323 @@
+body{
+    background-color: rgb(221, 123, 62);
+    width: 100%;
+}
+section.section-one{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.container .home{
+    background-image: url('../imagens/img-2.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.texto-1{
+    width: 32.2%;
+    min-width: 400px;
+    padding: 130px 10px;
+    opacity: 1.0;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+.btn{
+    width: 80%;
+    max-width: 300px;
+    height: 100px;
+    color: #f0f8ff;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 100px;
+    text-align: center;
+    background-color: #694ad3;
+    border-radius: 15px;
+    margin-top: 90px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn:hover{
+    background-color: rgb(211, 61, 6);
+}
+
+.bg{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.formulario{
+    background-color: #1e1e1f;
+    padding: 60px 2%;
+    height: 60%;
+    min-height: 380px;
+    max-height: 700px;
+    max-width: 400px;
+    width: 100%;
+    border: 4px solid rgb(210,210,210);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.formulario input[type=text]{
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 8px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.formulario input[type=submit]{
+    width: 100%;
+    height: 48px;
+    color: #252627;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 48px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f3f5df;
+    border-radius: 15px;
+    border: 0;
+}
+
+.formulario h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 21px;
+    color: #f3f5df;
+    margin-bottom: 30px;
+}
+
+.formulario p{
+    color: #ff4500;
+    font-size: 13px;
+    position: relative;
+    top: -14px;
+    display: none;
+}
+
+.closeBtn{
+    width: 32px;
+    height: 32px;
+    background-color: #f0f8ff;
+    color: #1e1e1f;
+    border-radius: 16px;
+    position: absolute;
+    right: -16px;
+    top: -16px;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto-1 h3{
+    font-size: 34px;
+}
+
+.texto-1 p{
+    font-size: 23px;
+}
+
+section.section-two{
+    margin-top: 10px;
+    width: 100%;
+    height: 1020px;
+    background-color: rgb(35, 34, 34);
+    padding: 40px 0;
+}
+
+.section-two .projetos{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.section-two .projetos .projeto-1{
+    height: 300px;
+    margin-top: 10px;
+    display: flex;
+    border: 4px solid #ffffff;
+}
+
+.section-two .projeto-1 .primeiro{
+    width: 65%;
+    height: 100%;
+    background-size: cover;
+}
+
+.section-two .projeto-1 h2{
+    font-size: 31px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-two .projeto-1 p{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+
+
+.one{
+    order: 1;
+}
+
+.two{
+    order: 2;
+}
+
+
+.section-two .projeto-1 .segundo{
+    width: 35%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:1024px){
+    section.section-two{
+        position: relative;
+        top: 260px;
+        height: 1400px;
+        
+    }
+    .section-two .projetos .projeto-1{
+        display: block;
+        margin-bottom: 130px;
+    }
+
+    .projetos .projeto-1 .primeiro{
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+
+    .projetos .projeto-1 .segundo{
+        width: calc(101% + 1px);
+        position: relative;
+        right: 4px;
+        height: 100px;
+        padding: 0;
+        border: 2px solid #f0f8ff;
+        border-top: 0px;
+        margin-top: 8px;
+    }
+
+    .section-two .projeto-1 h2{
+        display: none;
+    }
+
+    .section-two .projeto-1 p{
+        font-size: 18px;
+        margin-top: 0px;
+        position: relative;
+        top: -5px;
+    }
+
+    .section-one{
+        height: 400px;
+    }
+
+   
+}
+
+@media screen and (max-width:766px){
+    .container .home{
+        padding: 20px 10px;
+        height: 400px;
+        opacity: 0.8;
+    }
+
+    .section-one{
+        height: 170px;
+        
+    }
+
+    section.section-two{
+        position: relative;
+        top: 330px;
+        padding-top: 0;
+        height: 1400px;
+    }
+
+    .section-two  .projetos .projeto-1{
+        position: relative;
+        top: 320px;
+    }
+
+    .section-two  .projetos .projeto-1 .segundo{
+        width: 102%;
+        margin-top: 8px;
+    }
+
+    .section-two .projeto-1 p{
+        font-size: 18px;
+        margin-top: -5px;
+        position: relative;
+        top: -21px;
+    }
+
+    .texto-1{
+        text-align: center;
+        width: 100%;
+        opacity: 1;
+        position: relative;
+        top: -70px;
+        left: 0;
+    }
+
+    .section-two .projetos{
+        position: relative;
+        top: -200px;
+    }
+
+    .btn{
+        width: 70%;
+        height: 50px;
+        line-height: 50px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width:590px){
+    .section-two .projeto-1 p{
+        font-size: 16px;
+        margin-top: -5px;
+        position: relative;
+        top: -27px;
+    }
+}

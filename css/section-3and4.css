@@ -1,0 +1,213 @@
+.section-three{
+    width: 100%;
+    position: relative;
+    height: 300px;
+    margin-bottom: 20px;
+    border-top: none;
+}
+
+.faixa{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.perguntas{
+    width: 50%;
+}
+
+.questions{
+    width: 60%;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.section-three{
+    display: flex;
+}
+
+.respostas{
+    width: 40%;
+    height: 260px;
+    border: 4px solid #ffffff;
+    margin-top: 20px;
+    position: relative;
+}
+
+.respostas h2{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.respostas p{
+    font-size: 21px;
+    text-align: left;
+    padding: 10px 60px;
+}
+
+.section-four{
+    width: 100%;
+    height: 400px;
+    padding: 50px 10px;
+    display: flex;
+    background-image: url('../imagens/imag6.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    border: 4px solid #ffffff;
+    background-color: rgb(236, 155, 105);
+}
+
+.form{
+    opacity: 0.9;
+}
+
+.form form{
+    text-align: center;
+    width: 40%;
+    height: auto;
+    margin-top: -30px;
+    padding: 10px 10px;
+    min-width: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(28, 28, 27);
+    border-radius: 10px;
+}
+
+.o{
+    text-align: left;
+    position: relative;
+    left: 0px;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.form input[type=email],input[type=text]{
+    width: 90%;
+    height: 25px;
+    padding-left: 8px;
+    min-width: 200px;
+}
+
+.form textarea{
+    width: 95%;
+    padding-left: 8px;
+    height: 150px;
+    min-width: 200px;
+}
+
+.form input[type=submit]{
+    width: 25%;
+    min-width: 120px;
+    background-color: #ffffff;
+    height: 29px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form input[type=submit]:hover{
+    background-color: #3310f7;
+    color: #ffffff;
+}
+
+@media screen and (max-width:1024px){
+    .respostas{
+        min-width: 400px;
+    }
+
+    .respostas p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:766px){
+    .section-three{
+        display: block;
+        height: auto;
+        padding: 0 20px;
+    }
+    .perguntas{
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .respostas{
+        width: 100%;
+        text-align: center;
+        padding: 0 5px;
+    }
+
+    .respostas p{
+        font-size: 19px;
+    }
+}
+
+.baseboard{
+    height: 80px;
+    width: 100%;
+    background-color: #141414;
+  }
+  
+  .baseboard h4{
+    color: #e5e3e3;
+    padding-left: 20px;
+  }
+  
+  .base-perfil{
+    display: flex;
+    height: 40px;
+    width: 420px;
+    padding: 10px 20px;
+  }
+  
+  .base-perfil h2{
+    font-size: 14px;
+    color: white;
+    margin-right: 30px;
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+  }
+  
+  .base-perfil h2:hover{
+    color: #e42525;
+  }
+  
+  .linkedin,.github{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid #e5e3e3;
+  }
+
+@media screen and (max-width:1024px){
+.section-three{
+    margin-top: 200px;
+    height: auto;
+    }
+
+}
+@media screen and (max-width:766px){
+
+    .section-three{
+        margin-top: 270px;
+    }
+}
+
+@media screen and (max-width: 574px){
+
+    .base-perfil{
+      margin-bottom: 0;
+      background-color: #141414;
+    }
+  
+}
+
