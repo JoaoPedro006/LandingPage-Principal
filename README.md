@@ -1,5 +1,5 @@
 Para esse projeto, no escopo ultilizei HTML e CSS. A página está totalmente responsiva e bem estilizada.
-Com JavaScript e JQuey fiz uma animação no qual o formmulário aparece depois de clicar no botão. Optei por não fazer a validação de formulário com JQuery pois acho desnecessário para esse projeto.
+Com JavaScript e JQuey fiz uma animação no qual o formulário aparece depois de clicar no botão. Optei por não fazer a validação de formulário com JQuery pois acho desnecessário para esse projeto.
 ultilizei um plugin para gerar icones das redes sociais porém não ultizei o estilo mais bonito pois tem que baixar um editor. 
 espero que gostem!
 ![proj6-1](https://github.com/JoaoPedro006/LandingPage-Principal/assets/145372868/e8a46b18-ec8f-4995-b651-b7a5d9036f26)
